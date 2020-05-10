@@ -1,7 +1,7 @@
 # Install Mods To Minecraft China
 
-这是我在2017年8月编写的 bat 脚本，现在 Hypixel 中国版自带了 Optfine 插件，这个办法早已失效。
-此 Repository会被 Archive。
+这是我在2017年8月编写的 bat 脚本，现在 Hypixel 中国版自带了 Optfine 插件，这个办法同时早已失效。
+此 Repository 将被 Archive。
 
 ## 原理
 在我的世界中国版启动器 v0.11.0.21122 中，Hypixel 中国版的游戏路径和预装的 Mod 名称都有变化。为了防止用户添加第三方 Mod，每次启动游戏前，启动器都会检查你的 Mod 文件夹，如果做了改动，会直接从另一个目录复制到Mod文件夹，覆盖所有你试图添加的 Mod。并且修改后的 Forge 只会加载指定名称的Mod。
