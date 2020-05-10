@@ -6,8 +6,8 @@ if errorlevel 1 goto 1
 if errorlevel 0 goto 0
 
 :0
-copy /y ********(1-1)*************** ******(2-1)******
-copy /y ********(1-2)*************** ******(2-2)******
+copy /y 1-1 2-1
+copy /y 1-2 2-2
 
 :1
 goto exit 
